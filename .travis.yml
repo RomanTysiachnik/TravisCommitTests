@@ -1,0 +1,5 @@
+script:
+  - . ./update-module.sh  
+  
+after_success:
+  - . ./update-repo.sh

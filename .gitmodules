@@ -1,0 +1,3 @@
+[submodule "SnapshotTests"]
+	path = SnapshotTests
+	url = https://github.com/RomanTysiachnik/SnapshotTests
