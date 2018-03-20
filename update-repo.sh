@@ -1,4 +1,5 @@
 #!/bin/sh
+# mobile-sdk-ios-testapp commit script if sdk is updated
 update_current_repo() {
 #    if [[ $TRAVIS_EVENT_TYPE != "api" ]]; then
 #        echo "This build wasn't trigger using api. SDK auto update declined."
@@ -33,7 +34,7 @@ update_current_repo() {
         return 1
     fi
 
-    if ! git commit -m "Travis CI Commit: Updated sdk for the latest version"; then
+    if ! git commit -m "Travis CI Commit - Updated sdk for the latest version"; then
     echo "Failed to commit updates"
     return 1
     fi

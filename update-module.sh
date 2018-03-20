@@ -1,5 +1,5 @@
 #!/bin/sh
-#mobile-sdk-ios auto update script
+# mobile-sdk-ios auto update script
 
 update_submodule() {
 #    if [[ $TRAVIS_EVENT_TYPE != "api" ]]; then
